@@ -1,0 +1,10 @@
+startup_message off
+bind c screen 1
+bind 0 select 10
+screen 1
+scrollback 10000
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{= kG}[ %{G}%H%10= ]%{g} %-w %{.gW}%f%n %t%{-}%+w %=%{..G}[%l] %{..Y} %m/%d %c "
+nonblock on
